@@ -1,0 +1,15 @@
+name: 機能追加・変更
+description: 機能の追加・変更、保守、整備など、不具合以外の対応を登録する
+body:
+  - type: textarea
+    id: purpose
+    attributes:
+      label: 目的
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 提案する内容
+    validations:
+      required: true
